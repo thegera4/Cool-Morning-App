@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewFacebook"
+        android:layout_width="127dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/facebook"
+        android:src="@drawable/facebook"
+        app:layout_constraintBottom_toTopOf="@+id/textViewFacebook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewWhatsapp"
+        android:layout_width="141dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription="@string/whatsapp"
+        android:src="@drawable/whatsapp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewWhatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewFacebook" />
+
+    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="136dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toTopOf="@+id/textViewEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhatsapp" />
+
+    <TextView
+        android:id="@+id/textViewFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/txt_facebook"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewWhatsapp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFacebook"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFacebook"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFacebook" />
+
+    <TextView
+        android:id="@+id/textViewWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:text="@string/txt_whatsapp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewEmail"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewWhatsapp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewWhatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewWhatsapp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:text="@string/txt_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewEmail"
+        app:layout_constraintStart_toStartOf="@+id/imageViewEmail"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEmail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

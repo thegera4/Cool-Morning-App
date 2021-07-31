@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CoolMorning</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="contacto">Contacto</string>
+    <string name="menu">Menu</string>
+    <string name="splash">SplashScreen</string>
+    <string name="facebook">Facebook</string>
+    <string name="txt_facebook">www.facebook.com/CoolMorningLaguna</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="txt_whatsapp">8711390732</string>
+    <string name="email">Email</string>
+    <string name="txt_email">fatme.sabag@coolmorning.com.mx</string>
+</resources>
