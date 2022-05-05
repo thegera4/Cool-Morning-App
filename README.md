@@ -1,5 +1,5 @@
 # Cool-Morning-App
-Simple app for a local gift shop
+Simple app for a local gift shop, using JAVA, intents for Facebook, Whatsapp and email apps, as well as a PDF Reader view for the shop's catalog.
 
 ![image](https://user-images.githubusercontent.com/84020433/167042507-69ef39e5-00e2-4e5d-804e-7d3c54ea9c87.png)
 ![image](https://user-images.githubusercontent.com/84020433/167042581-8fa62bbb-08b6-43fc-84fb-9b9cd04fd086.png)
